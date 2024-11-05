@@ -5,4 +5,5 @@ public interface IPlayerInput
     float GetMouseX();
     float GetMouseY();
     bool GetJumpKeyDown();
+    public bool GetInteractKeyDown();
 }

@@ -12,4 +12,5 @@ public class PlayerInput : IPlayerInput
     public float GetMouseX() => Input.GetAxis(MouseX);
     public float GetMouseY() => Input.GetAxis(MouseY);
     public bool GetJumpKeyDown() => Input.GetKeyDown(KeyCode.Space);
+    public bool GetInteractKeyDown() => Input.GetKeyDown(KeyCode.E);
 }
